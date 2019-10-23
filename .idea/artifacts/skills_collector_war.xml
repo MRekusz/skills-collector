@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="skills-collector:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>skills-collector</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="skills-collector.war">
+      <element id="artifact" artifact-name="skills-collector:war exploded" />
+    </root>
+  </artifact>
+</component>
